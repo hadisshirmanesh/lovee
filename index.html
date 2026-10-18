@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff0f6" />
+  <meta name="description" content="یه گوشه‌ی کوچولو از قلبم، برای حمید جونم 💗" />
+  <title>برای حمید جونم 💗</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="صفحه اصلی">♡ دنیای ما</a>
+    <nav>
+      <a href="#reasons">چرا دوستت دارم؟</a>
+      <a href="#letter">نامه‌ی من</a>
+      <a href="#games">یه کم بازی</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-sticker sticker-one">♡</div>
+      <div class="hero-sticker sticker-two">✦</div>
+      <p class="eyebrow">یه گوشه‌ی کوچولو از قلبم</p>
+      <h1>برای <span>حمید جونم</span> 💗</h1>
+      <p class="hero-copy">اگه می‌تونستم همه‌ی دوست داشتنمو توی یه جعبه بذارم، احتمالاً از این صفحه هم بزرگ‌تر می‌شد!</p>
+      <button class="button button-primary" id="startBtn">بیا دنیای کوچولومونو ببینیم <span>♡</span></button>
+      <div class="hero-note">فقط برای تو، با کلی عشق ✿</div>
+      <div class="scroll-cue">یه کوچولو بیا پایین ↓</div>
+    </section>
+
+    <section class="section counter-section" aria-labelledby="counterTitle">
+      <div class="section-heading">
+        <p class="eyebrow">روزهای قشنگ ما</p>
+        <h2 id="counterTitle">چند روزه که قشنگ‌ترین اتفاق زندگی منی؟ 🥹</h2>
+        <p>تاریخ شروع رابطه‌تون رو انتخاب کن تا شمارشگر مخصوص خودتون رو ببینی.</p>
+      </div>
+      <div class="counter-card">
+        <label for="startDate">تاریخ شروع رابطه‌مون</label>
+        <div class="date-row">
+          <input type="date" id="startDate" />
+          <button class="button button-small" id="saveDateBtn">ثبت تاریخ</button>
+        </div>
+        <div class="counter-number"><span id="daysCount">♡</span><small>روز خاطره و دوست داشتن</small></div>
+        <p class="tiny-note" id="dateMessage">تاریخ خودتونو انتخاب کن؛ این قسمت منتظر خاطره‌ی شماست.</p>
+      </div>
+    </section>
+
+    <section class="section" id="reasons">
+      <div class="section-heading">
+        <p class="eyebrow">یه اعتراف کوچولو</p>
+        <h2>چرا این‌همه دوستت دارم؟ 💞</h2>
+        <p>هر کارت یه دلیل کوچولوئه؛ی.</p>
+      </div>
+      <div class="reasons-grid" id="reasonsGrid">
+        <button class="reason-card" data-message="چون حتی وقتی روزم خوب پیش نمی‌ره، یه پیام از تو می‌تونه همه‌چی رو یه کم قشنگ‌تر کنه.">🌷<strong>حال خوبِ من</strong><span></span></button>
+        <button class="reason-card" data-message="چون صدات برای من یه جور آرامشه؛ انگار شلوغی‌های دنیا چند لحظه آروم می‌شن.">🎧<strong>صدای تو</strong><span></span></button>
+        <button class="reason-card" data-message="چون وقتی یه چیزی برات مهمه، برای منم مهم می‌شه. خوشحالی‌هات رو از ته دل خوشحالی می‌کنم.">🧸<strong>دنیای تو</strong><span></span></button>
+        <button class="reason-card" data-message="چون خنده‌هات یه جورایی مسری‌ان؛ خودت بخندی، منم ناخودآگاه لبخند می‌زنم.">🎀<strong>خنده‌های قشنگت</strong><span></span></button>
+        <button class="reason-card" data-message="چون حتی کارای خیلی معمولی، وقتی با تو باشن، می‌تونن تبدیل به خاطره‌هایی بشن که دلم می‌خواد نگهشون دارم.">🍓<strong>باهم بودنمون</strong><span></span></button>
+        <button class="reason-card" data-message="چون لازم نیست بی‌نقص باشی؛ من آدم واقعیِ پشت لبخندها و خستگی‌هات رو دوست دارم، همون خودِ خودتو.">💌<strong>خودِ خودت</strong><span></span></button>
+        <button class="reason-card" data-message="چون وقتی یه اتفاق خوب می‌افته، یکی از اولین آدمایی که دلم می‌خواد بهش بگم تویی.">✨<strong>اولین نفری که یادم میاد</strong><span></span></button>
+        <button class="reason-card" data-message="چون با تو می‌تونم هم جدی حرف بزنم، هم الکی بخندم، هم خودم باشم؛ این حس برام خیلی باارزشه.">☁️<strong>حسِ خودم بودن</strong><span></span></button>
+        <button class="reason-card" data-message="چون هنوز کلی خاطره هست که می‌خوام با تو بسازم؛ جاهایی که باید بریم، چیزایی که باید تجربه کنیم و خنده‌هایی که هنوز نشنیدیم.">💗<strong>همه‌ی فرداهای ما</strong><span></span></button>
+      </div>
+      <div class="reason-reveal" id="reasonReveal" role="status" aria-live="polite">💗</div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="letter-wrap">
+        <div class="letter-top">✉ یه نامه فقط برای تو ✉</div>
+        <div class="envelope" aria-hidden="true"><span>♡</span></div>
+        <h2>حمید جونم، اینو از ته دلم بخون...</h2>
+        <p class="letter-intro">بعضی حرفا رو آدم شاید نتونه هر روز کامل بگه؛ برای همین من اینجا یه گوشه‌ی کوچولو براشون درست کردم.</p>
+        <button class="button button-primary" id="openLetterBtn">نامه‌مو باز کن 💌</button>
+        <article class="letter-content" id="letterContent" hidden>
+          <p>حمید جونِ دلم،</p>
+          <p>نمی‌دونم چطوری باید اندازه‌ی دوست داشتنمو توضیح بدم، ولی می‌دونم بودنت برای من یه اتفاق قشنگه. دوست دارم باهات بخندم، از چیزای ریز و درشت روزمون بگیم و کلی خاطره بسازیم.</p>
+          <p>من تو رو فقط برای لحظه‌های خوب دوست ندارم؛ دوست دارم کنار هم یاد بگیریم، همدیگه رو بفهمیم و توی روزهای سخت هم هوای همو داشته باشیم.</p>
+          <p>شاید نتونم همه‌ی دوست داشتنمو با کلمه‌ها جا بدم، ولی هر کدومشون یه تیکه از قلبمه که به تو می‌رسه.</p>
+          <p>روزت پیشاپیش مبارک باشه دلیل زندگیم</p>
+          <P>داشتم فکر میکردم چیکار مبنونم بکنم که هم روزتو تبریک بگم بهت غشقم امیدوار با دیدن این سایت لبخند رو لبت امده باشه</P>
+          <p class="letter-sign">دوستت دارم، بیشتر از چیزی که این صفحه جا بشه ♡<br />از طرفِ آدمی که خیلی دوستت داره</p>
+          <p class="personalize-note"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section games-section" id="games">
+      <div class="section-heading">
+        <p class="eyebrow">وقت شیطنت کوچولوئه</p>
+        <h2>بازی کنیم، حمید جون؟ 🎮</h2>
+        <p>اینجا جواب اشتباه نداریم؛ فقط بهونه داریم که لبخند بزنی.</p>
+      </div>
+      <div class="love-question-card">
+        <div class="question-heart">💗</div>
+        <h3>حمید جونم، یه سؤال خیلی مهم!</h3>
+        <p>فکر می‌کنی من چقدر دوستت دارم؟ اصلاً تو هم منو دوست داری؟ 🥹</p>
+        <div class="answer-buttons">
+          <button class="button button-primary" id="yesLoveBtn">آره، خیلی زیاد! 💞</button>
+          <button class="button button-outline" id="noLoveBtn">نه 😏</button>
+        </div>
+        <p class="love-answer" id="loveAnswer" aria-live="polite"></p>
+      </div>
+      <div class="games-grid">
+        <article class="game-card">
+          <div class="game-emoji">💘</div>
+          <h3>چقدر دوستت دارم؟</h3>
+          <p>یه جواب خیلی مهم و کاملاً علمی لازم داریم!</p>
+          <button class="button button-outline" id="loveQuizBtn">جوابمو ببین</button>
+          <p class="game-result" id="loveQuizResult" aria-live="polite"></p>
+        </article>
+        <article class="game-card">
+          <div class="game-emoji">🫂</div>
+          <h3>دکمه‌ی بغل مجازی</h3>
+          <p>برای وقتایی که دلت یه بغل کوچولو می‌خواد.</p>
+          <button class="button button-outline" id="hugBtn">یه بغل بده</button>
+          <p class="game-result" id="hugResult" aria-live="polite"></p>
+        </article>
+        <article class="game-card">
+          <div class="game-emoji">💌</div>
+          <h3>پیام شانسی</h3>
+          <p>یه پیام کوچولو از جعبه‌ی دوست داشتن بردار.</p>
+          <button class="button button-outline" id="messageBtn">یکی برام بیار</button>
+          <p class="game-result" id="messageResult" aria-live="polite"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="final-section section">
+      <div class="final-heart">♡</div>
+      <p class="eyebrow">قبل از اینکه بری...</p>
+      <h2>یه چیز رو یادت نره، حمید جونم</h2>
+      <p>تو لازم نیست همیشه همه‌چی رو درست انجام بدی تا دوست‌داشتنی باشی. همین که خودتی، برام قشنگی. 💗</p>
+      <button class="button button-primary" id="surpriseBtn">آخرین سورپرایز ✨</button>
+      <div class="surprise-message" id="surpriseMessage" hidden>اگه اینجا بودی، الان یه بغل محکم طلبت بود! 🥹💞<br />دوستت دارم، حمید جونم!</div>
+      <p class="footer-note">با عشق درست شده ♡ برای تو، فقط تو</p>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
